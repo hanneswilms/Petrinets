@@ -1,0 +1,151 @@
+node {
+	size: 30px;
+	fill-color: #ffffff;
+	text-color: #003366;
+	text-size: 14;
+	text-alignment: under; 
+	stroke-mode: plain;
+	stroke-color: #003366;
+	stroke-width: 1px;
+	padding: 10px;
+}
+
+node.highlight {
+	text-style: bold;
+	stroke-color: #cc0000;
+	stroke-width: 3px;
+}
+
+edge {
+	shape: line;
+	fill-color: #003366;
+	text-color: #003366;
+	arrow-shape: arrow;
+	arrow-size: 9px, 6px;
+	text-size:  14;
+	text-color: #003366;
+	text-padding: 2px;
+	text-background-color: white;
+	text-background-mode: plain;
+}
+
+node.transition {
+	shape: box;
+}
+
+node.transitionEnabled {
+	shape: box;
+	fill-color: #ffdf00;
+}
+
+node.marke0 {
+	fill-mode: image-scaled;
+	fill-image: url('images/0marke.png');
+}
+
+node.marke1 {
+	fill-mode: image-scaled;
+	fill-image: url('images/1marke.png');
+}
+
+node.marke2 {
+	fill-mode: image-scaled;
+	fill-image: url('images/2marke.png');
+}
+
+node.marke3 {
+	fill-mode: image-scaled;
+	fill-image: url('images/3marke.png');
+	
+}
+
+node.marke4 {
+	fill-mode: image-scaled;
+	fill-image: url('images/4marke.png');
+}
+
+node.marke5 {
+	fill-mode: image-scaled;
+	fill-image: url('images/5marke.png');
+}
+
+node.marke6 {
+	fill-mode: image-scaled;
+	fill-image: url('images/6marke.png');
+}
+
+node.marke7 {
+	fill-mode: image-scaled;
+	fill-image: url('images/7marke.png');
+}
+
+node.marke8 {
+	fill-mode: image-scaled;
+	fill-image: url('images/8marke.png');
+}
+
+node.marke9 {
+	fill-mode: image-scaled;
+	fill-image: url('images/9marke.png');
+}
+
+node.markePlus {
+	fill-mode: image-scaled;
+	fill-image: url('images/9+marke.png');
+}
+
+node.marke0Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/0markeSelected.png');
+}
+
+node.marke1Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/1markeSelected.png');
+}
+
+node.marke2Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/2markeSelected.png');
+}
+
+node.marke3Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/3markeSelected.png');
+	
+}
+
+node.marke4Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/4markeSelected.png');
+}
+
+node.marke5Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/5markeSelected.png');
+}
+
+node.marke6Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/6markeSelected.png');
+}
+
+node.marke7Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/7markeSelected.png');
+}
+
+node.marke8Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/8markeSelected.png');
+}
+
+node.marke9Selected {
+	fill-mode: image-scaled;
+	fill-image: url('images/9markeSelected.png');
+}
+
+node.markePlusSelected {
+	fill-mode: image-scaled;
+	fill-image: url('images/9+markeSelected.png');
+}

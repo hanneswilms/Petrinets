@@ -1,0 +1,83 @@
+node {
+	size: 85,16;
+	fill-color: #ffffff;
+	shape: rounded-box;
+	text-color: #003366;
+	text-size: 12;
+	text-alignment: center;
+	stroke-mode: plain;
+	stroke-color: #003366;
+	stroke-width: 1px;
+	padding: 10px;
+	text-padding: 10px;
+}
+
+node.initial {
+	fill-color: #b8b8b8;
+}
+
+node.initialHighlight {
+	fill-color: #b8b8b8;
+	text-style: bold;
+	stroke-width: 3px;
+}
+
+node.startPath {
+	fill-color: #ffdf00;
+}
+
+node.startPathHighlight {
+	fill-color: #ffdf00;
+	text-style: bold;
+	stroke-width: 3px;
+}
+
+node.endPath {
+	fill-color: #da2f2f;
+}
+
+node.endPathHighlight {
+	fill-color: #da2f2f;
+	text-style: bold;
+	stroke-width: 3px;
+}
+
+node.highlight {
+	text-style: bold;
+	stroke-width: 3px;
+}
+
+edge {
+	shape: line;
+	fill-color: #003366;
+	text-color: #003366;
+	arrow-shape: arrow;
+	arrow-size: 8,6;
+	text-size:  12;
+	text-color: #003366;
+	text-background-color: white;
+	text-background-mode: plain;
+}
+
+edge.path {
+	shadow-color: #7fccf3;
+	shadow-mode: plain;
+	shadow-width: 5;
+	shadow-offset: 0;
+}
+
+edge.pathHighlight {
+	fill-color: #ff0000;
+	shadow-color: #7fccf3;
+	shadow-mode: plain;
+	shadow-width: 5;
+	shadow-offset: 0;
+	stroke-width: 3;
+	text-style: bold;
+}
+
+edge.highlight {
+	fill-color: #ff0000;
+	stroke-width: 3;
+	text-style: bold;
+}
